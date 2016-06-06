@@ -1,0 +1,4 @@
+mpic.lo: ../../../ThirdParty/Mumps/MUMPS/libseq/mpic.c \
+ ../../../ThirdParty/Mumps/MUMPS/libseq/mpi.h
+
+../../../ThirdParty/Mumps/MUMPS/libseq/mpi.h:

@@ -1,0 +1,10 @@
+mumps_common.lo: ../../../ThirdParty/Mumps/MUMPS/src/mumps_common.c \
+ ../../../ThirdParty/Mumps/MUMPS/src/mumps_common.h \
+ ../../../ThirdParty/Mumps/MUMPS/include/mumps_compat.h \
+ ../../../ThirdParty/Mumps/MUMPS/include/mumps_c_types.h
+
+../../../ThirdParty/Mumps/MUMPS/src/mumps_common.h:
+
+../../../ThirdParty/Mumps/MUMPS/include/mumps_compat.h:
+
+../../../ThirdParty/Mumps/MUMPS/include/mumps_c_types.h:

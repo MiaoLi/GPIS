@@ -1,0 +1,13 @@
+mumps_orderings.lo: ../../../ThirdParty/Mumps/MUMPS/src/mumps_orderings.c \
+ ../../../ThirdParty/Mumps/MUMPS/src/mumps_orderings.h \
+ ../../../ThirdParty/Mumps/MUMPS/src/mumps_common.h \
+ ../../../ThirdParty/Mumps/MUMPS/include/mumps_compat.h \
+ ../../../ThirdParty/Mumps/MUMPS/include/mumps_c_types.h
+
+../../../ThirdParty/Mumps/MUMPS/src/mumps_orderings.h:
+
+../../../ThirdParty/Mumps/MUMPS/src/mumps_common.h:
+
+../../../ThirdParty/Mumps/MUMPS/include/mumps_compat.h:
+
+../../../ThirdParty/Mumps/MUMPS/include/mumps_c_types.h:

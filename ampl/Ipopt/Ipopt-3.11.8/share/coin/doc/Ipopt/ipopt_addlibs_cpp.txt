@@ -1,0 +1,1 @@
+-L/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. -lipopt -llapack -ldl -lcoinmumps -lblas -lgfortran -lm -lquadmath -lcoinmetis  

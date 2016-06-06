@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/home/miao/Documents/devel/Codes/Ipopt/Ipopt-3.11.8/build/ThirdParty/ASL
+
+Name: ASL
+Description: AMPL Solver Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.2.16
+Libs: ${libdir}/libcoinasl.la -lm -ldl 
+Cflags: -I/home/miao/Documents/devel/Codes/Ipopt/Ipopt-3.11.8/build/ThirdParty/ASL -I/home/miao/Documents/devel/Codes/Ipopt/Ipopt-3.11.8/ThirdParty/ASL/solvers

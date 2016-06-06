@@ -1,0 +1,10 @@
+prefix=/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8
+libdir=/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Apps/AmplSolver
+
+Name: IPOPT
+Description: Ampl Interface TNLP to Ipopt
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.11.8
+Libs: ${libdir}/libipoptamplinterface.la 
+Cflags: -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Apps/AmplSolver
+Requires: ipopt coinasl 

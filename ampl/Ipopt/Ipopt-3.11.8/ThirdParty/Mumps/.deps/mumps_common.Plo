@@ -1,0 +1,8 @@
+mumps_common.lo: MUMPS/src/mumps_common.c MUMPS/src/mumps_common.h \
+ MUMPS/include/mumps_compat.h MUMPS/include/mumps_c_types.h
+
+MUMPS/src/mumps_common.h:
+
+MUMPS/include/mumps_compat.h:
+
+MUMPS/include/mumps_c_types.h:

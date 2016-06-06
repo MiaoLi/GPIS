@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/home/miao/Documents/devel/Codes/Ipopt/Ipopt-3.11.8/build/ThirdParty/Metis
+
+Name: Metis
+Description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.2.10
+Libs: ${libdir}/libcoinmetis.la
+Cflags: -I/home/miao/Documents/devel/Codes/Ipopt/Ipopt-3.11.8/ThirdParty/Metis/metis-4.0/Lib

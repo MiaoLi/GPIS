@@ -1,0 +1,10 @@
+prefix=/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8
+libdir=/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.11.8
+Libs: ${libdir}/libipopt.la -llapack -lblas -lm  -ldl
+Cflags: -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Interfaces -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Common -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/LinAlg -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Algorithm -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/contrib/CGPenalty -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/contrib/LinearSolverLoader -I/home/miao/devel/Codes/Ipopt/Ipopt-3.11.8/Ipopt/src/Common
+Requires: coinmumps 
