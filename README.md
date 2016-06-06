@@ -3,7 +3,7 @@ This folder includes:
 - the matlab code for Gaussian Process Implicit surface 
 - the code for contact-level grasp planning using AMPL
 
-## Gaussian Process Implicit Surface(GPIS)
+## Gaussian Process Implicit Surface (GPIS)
 ### matlab 
 Run 'SurfaceModeling.m' to generate the generate the object shape representation using Gaussian Process. The object representation data are saved into 'data_grasp.dat'.
 
@@ -22,4 +22,9 @@ the script to download more object models online.
 3. This follwing step is only tested in Windows, in ubuntu, AMPL can not find the ipopt solver, I can not find the reason for this now. If you have a better solution, please let me know.
 Run 'ampl.exe', you will see 'ampl:', type 'include All_mod.txt', the solver will try to solve the optimization problem. 
 ampl: include All_mod.txt
+
+## Reference
+1. Dexterous grasping under shape uncertainty, Miao Li, Kaiyu Hang, Danica Kragic and Aude Billard, Robots and Autonomous Systems, 2015;
+2. On the generation of a variety of grasps, Sahar El-Khoury, Miao Li, Aude Billard, Robotics and Autonomous Systems, 2013;
+
 
